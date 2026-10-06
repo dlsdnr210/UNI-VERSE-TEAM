@@ -11,7 +11,7 @@ export default function DemoSection() {
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="w-full aspect-video bg-black rounded-2xl border border-gray-800 overflow-hidden flex items-center justify-center">
-             {linksData.youtubeUrl.includes("http") ? (
+             {linksData.youtubeUrl.startsWith("http") ? (
                <iframe 
                 width="100%" 
                 height="100%" 
