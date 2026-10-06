@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6C4DFF;
+  --color-secondary: #8B5CF6;
+  --color-dark: #0F0F17;
+  --color-dark-card: #151521;
+  --color-dark-hover: #1a1a2e;
+  --color-light: #F7F7FA;
+  --color-sub: #A8A8B8;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar for better dark mode experience */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0F0F17; 
+}
+::-webkit-scrollbar-thumb {
+  background: #8B5CF6; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6C4DFF; 
+}
