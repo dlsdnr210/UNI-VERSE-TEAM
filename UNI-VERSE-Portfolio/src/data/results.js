@@ -23,9 +23,9 @@ export const resultsData = {
     "CI/CD 구축"
   ],
   metrics: [
-    { label: "참여 사용자 수", value: "TODO" },
-    { label: "설문 응답 수", value: "TODO" },
-    { label: "평균 만족도", value: "TODO" },
-    { label: "개선 항목 수", value: "TODO" }
+    { label: "참여 사용자 수", value: "14명" },
+    { label: "설문 응답 수", value: "14명" },
+    { label: "평균 만족도", value: "4.2 / 5.0" },
+    { label: "개선 항목 수", value: "5개" }
   ]
 };

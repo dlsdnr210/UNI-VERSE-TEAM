@@ -54,7 +54,7 @@ export default function Hero() {
             src="/images/hero/main.png" 
             alt="UNI:VERSE Service Preview" 
             placeholderText="UNI:VERSE Service Preview"
-            className="w-full aspect-[4/3] rounded-2xl shadow-2xl relative z-10 border border-gray-800"
+            className="w-full aspect-[4/3] object-top rounded-2xl shadow-2xl relative z-10 border border-gray-800"
           />
         </div>
       </div>

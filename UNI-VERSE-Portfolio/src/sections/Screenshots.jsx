@@ -7,12 +7,12 @@ export default function Screenshots() {
   const [selectedImage, setSelectedImage] = useState(null);
   
   const images = [
-    { src: '/images/screenshots/signup.png', label: "회원가입 화면" },
-    { src: '/images/screenshots/login.png', label: "로그인 화면" },
-    { src: '/images/screenshots/community.png', label: "커뮤니티 화면" },
-    { src: '/images/screenshots/market-detail.png', label: "중고거래 상세 화면" },
-    { src: '/images/screenshots/chat.png', label: "채팅 화면" },
-    { src: '/images/screenshots/ai-block.png', label: "AI 위험문구 차단 화면" }
+    { src: '/images/screenshots/회원가입.png', label: "회원가입 화면" },
+    { src: '/images/screenshots/로그인.png', label: "로그인 화면" },
+    { src: '/images/screenshots/커뮤니티.png', label: "커뮤니티 화면" },
+    { src: '/images/screenshots/중고거래_상세.png', label: "중고거래 상세 화면" },
+    { src: '/images/screenshots/채팅.png', label: "채팅 화면" },
+    { src: '/images/screenshots/AI위험문구.png', label: "AI 위험문구 차단 화면" }
   ];
 
   return (
@@ -27,7 +27,7 @@ export default function Screenshots() {
                   src={img.src} 
                   alt={img.label} 
                   placeholderText={img.label}
-                  className="w-full aspect-video group-hover:scale-105 transition-transform duration-500"
+                  className="w-full aspect-video object-top group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <p className="text-center text-sub mt-4 font-medium">{img.label}</p>
