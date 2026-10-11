@@ -11,14 +11,14 @@ export default function ProblemBackground() {
         
         <div className="space-y-8">
           {problemsData.map(item => (
-            <div key={item.id} className="grid md:grid-cols-2 gap-6 items-center bg-dark border border-gray-800 rounded-xl p-6">
+            <div key={item.id} className="grid md:grid-cols-[1fr_auto_1fr] gap-6 items-center bg-dark border border-gray-800 rounded-xl p-6">
               <div className="flex items-start gap-4">
                 <div className="bg-red-500/10 p-3 rounded-lg text-red-400 shrink-0">
                   <AlertCircle size={24} />
                 </div>
                 <div>
                   <h4 className="text-gray-400 text-sm font-bold mb-2 uppercase tracking-wide">Problem</h4>
-                  <p className="text-light text-lg leading-relaxed">{item.problem}</p>
+                  <p className="text-light text-lg leading-relaxed break-keep">{item.problem}</p>
                 </div>
               </div>
               <div className="hidden md:flex justify-center text-gray-700">
@@ -30,7 +30,7 @@ export default function ProblemBackground() {
                 </div>
                 <div>
                   <h4 className="text-primary text-sm font-bold mb-2 uppercase tracking-wide">Solution</h4>
-                  <p className="text-sub text-lg leading-relaxed">{item.solution}</p>
+                  <p className="text-sub text-lg leading-relaxed break-keep">{item.solution}</p>
                 </div>
               </div>
             </div>

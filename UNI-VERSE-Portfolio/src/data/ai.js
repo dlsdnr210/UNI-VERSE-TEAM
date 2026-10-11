@@ -23,7 +23,6 @@ export const aiData = {
   ],
   improvements: [
     "추가 학습 데이터 반영",
-    "모델 재학습 Retraining",
     "오분류 사례 검토"
   ],
   futurePlans: [

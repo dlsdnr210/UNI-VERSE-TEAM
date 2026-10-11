@@ -26,10 +26,10 @@ export const teamData = [
       "알림",
       "AI 위험문구 데이터",
       "TF-IDF",
-      "Logistic Regression 모델 학습 / 재학습"
+      "Logistic Regression 모델 학습"
     ],
     github: "TODO - 추후 입력",
-    keyContribution: "프론트엔드 개발 및 AI 모델 구현",
+    keyContribution: "풀스택 개발 및 AI 모델 구현",
     profileImage: "/images/team/yeonjae.png"
   },
   {

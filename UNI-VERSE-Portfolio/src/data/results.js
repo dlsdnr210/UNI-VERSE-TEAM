@@ -18,7 +18,6 @@ export const resultsData = {
     "커뮤니티 기능 개선",
     "UI / Responsive 개선",
     "AI 데이터 보강",
-    "AI 모델 재학습",
     "AWS 배포",
     "CI/CD 구축"
   ],
