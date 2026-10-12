@@ -59,13 +59,14 @@ npm run build
 - 이미지가 아직 준비되지 않았다면, 브라우저의 '깨진 이미지' 대신 UI가 무너지지 않도록 **Placeholder**가 렌더링됩니다.
 
 ## 🌐 Vercel 배포 방법
+
 이 프로젝트는 백엔드 없이 Frontend 단독 배포가 가능한 정적 사이트입니다.
-1. Vercel(https://vercel.com)에 로그인 후 **New Project** 클릭
+1. [Vercel](https://vercel.com)에 로그인 후 **New Project** 클릭
 2. 본 GitHub Repository 선택 후 **Import**
 3. 설정 사항 확인:
    - Framework Preset: **Vite**
-   - Build Command: \`npm run build\`
-   - Output Directory: \`dist\`
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
 4. **Deploy** 버튼 클릭
 
 ## ⚙️ 설정 관련 (팀원용)
